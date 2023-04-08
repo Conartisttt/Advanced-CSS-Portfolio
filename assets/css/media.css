@@ -1,0 +1,41 @@
+@media screen and (min-width: 768px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        flex: 0 0 49%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card-top {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card {
+        flex: 0 0 32%;
+        max-width: 33%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .card-top {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
