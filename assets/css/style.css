@@ -15,8 +15,11 @@ a {
     color: var(--spaceblue)
 }
 
-
-
+button {
+    font-size: 100%;
+    font-family: inherit;
+    background-color: inherit;
+}
 
 
 /* CSS Values - top to bottom */
@@ -39,8 +42,7 @@ body {
 }
 
 header img {
-    height: 100px;
-    max-width: 100%;
+    max-width: 30%;
     margin: auto;
     display: block;
 }
@@ -62,6 +64,7 @@ nav {
     border-radius: 20px;
     font-size: 20px;
 }
+
 
 h2 {
     font-size: 45px;
@@ -118,7 +121,6 @@ h3 {
         border-radius: 20px;
     }
 
-    
     @media screen and (min-width: 768px) {
         .card-container {
             display: flex;
@@ -128,8 +130,15 @@ h3 {
 
     @media screen and (min-width: 768px) {
         .card {
-            flex: 0 0 50%;
+            flex: 0 0 49%;
             max-width: 50%;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .card-top {
+            flex: 0 0 100%;
+            max-width: 100%;
         }
     }
     
@@ -142,43 +151,14 @@ h3 {
 
     @media screen and (min-width: 992px) {
         .card  {
-            flex: 0 0 33%;
+            flex: 0 0 32%;
             max-width: 33%;
         }
     }
 
-
-/* nav {
-    font-size: 3vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  } */
-
-/* .header-section {
-    background-color: var(--spaceshipgray);
-display: flex;
-justify-content: space-around;
-border-radius: 20px;
-  } */
-
-/* .section-container {
-    display: flex;
-    margin: 5%;
-}
-
-.card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card1 {
-    flex: 1 1 75%;
-    text-align: center;
-}
-
-.card {
-    flex: 1 1 50%;
-    text-align: center;
-} */
+    @media screen and (min-width: 992px) {
+        .card-top {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
