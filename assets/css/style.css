@@ -84,11 +84,6 @@ h2 {
     border-radius: 20px;
 }
 
-.card1 img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 .card {
     height: 200px;
     margin: auto;
@@ -98,11 +93,6 @@ h2 {
     border-radius: 20px;
 }
 
-.card img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
 h3 {
     background-color: var(--spacegray);
     display: inline-block;
@@ -110,9 +100,6 @@ h3 {
     border-bottom-right-radius: 10px;
     padding: 5px;
 }
-
-.section-container {}
-
 
 .contact-card {
         height: auto;
@@ -129,6 +116,35 @@ h3 {
         background-color: var(--spaceshipgray);
         margin-bottom: 5px;
         border-radius: 20px;
+    }
+
+    
+    @media screen and (min-width: 768px) {
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .card {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+    
+    @media screen and (min-width: 992px) {
+        .card-container  {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .card  {
+            flex: 0 0 33%;
+            max-width: 33%;
+        }
     }
 
 
