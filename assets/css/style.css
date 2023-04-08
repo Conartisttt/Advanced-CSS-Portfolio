@@ -1,36 +1,168 @@
-
 /* CSS Reset Values */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  ol, ul {
-    list-style: none;
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-  }
-
-  img {
-    height: 200px;
-    max-width: 100%;
-  }
-
-  /* CSS Values - top to bottom */
-
-:root {
---spacegray: #2f2c2c;
---spaceblue: rgb(0, 255, 255);
 }
 
-  body {
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--spaceblue)
+}
+
+
+
+
+
+/* CSS Values - top to bottom */
+
+:root {
+    --spacegray: #2f2c2c;
+    --spaceshipgray: #6d7f82;
+    --spaceblue: rgb(0, 255, 255);
+    margin: 20px;
+}
+
+body {
     background-color: var(--spacegray);
     color: var(--spaceblue)
-  }
+}
 
-  h1 {
-    font-size: 10vw;
-  }
+.header-section {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header img {
+    height: 100px;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+h1 {
+    font-size: 55px;
+    text-align: center;
+}
+
+nav {
+    margin: 5px;
+}
+
+.nav-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--spaceshipgray);
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.about-me-container {
+    background-color: var(--spaceshipgray);
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.card1 {
+    height: 200px;
+    margin: auto;
+    text-align: left;
+    background-color: var(--spaceshipgray);
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.card1 img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card {
+    height: 200px;
+    margin: auto;
+    text-align: left;
+    background-color: var(--spaceshipgray);
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+h3 {
+    background-color: var(--spacegray);
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+
+.section-container {}
+
+
+.contact-card {
+        height: auto;
+        padding: 20px;
+        background-color: var(--spaceshipgray);
+        margin-bottom: 5px;
+        border-radius: 20px;
+        display: block;
+    }
+
+    .resume-card {
+        height: auto;
+        padding: 20px;
+        background-color: var(--spaceshipgray);
+        margin-bottom: 5px;
+        border-radius: 20px;
+    }
+
+
+/* nav {
+    font-size: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  } */
+
+/* .header-section {
+    background-color: var(--spaceshipgray);
+display: flex;
+justify-content: space-around;
+border-radius: 20px;
+  } */
+
+/* .section-container {
+    display: flex;
+    margin: 5%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card1 {
+    flex: 1 1 75%;
+    text-align: center;
+}
+
+.card {
+    flex: 1 1 50%;
+    text-align: center;
+} */

@@ -12,75 +12,83 @@
 <body>
 
     <header>
-        <h1>Conartisttt</h1>
+        <div class="header-section">
+            <h1>Conartisttt</h1>
+            <img src="assets/images/Fotor_AI.png">
+        </div>
     </header>
 
-    <figure>
-        <img src="assets/images/Fotor_AI.png">
-    </figure>
-
     <nav>
-        <ul>
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Contact Me</li>
-            <li>Resume</li>
-        </ul>
+        <div class="nav-section">
+            <a href="#about-me">About Me </a>
+            <a href="#work">Work </a>
+            <a href="#contact-me">Contact Me </a>
+            <a href="#resume">Resume </a>
+        </div>
     </nav>
 
     <main>
 
         <section>
-            <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nostrum repellat consequatur sunt
-                similique, laudantium minus aperiam dolorum odio veniam accusantium quisquam necessitatibus illo totam
-                commodi in tenetur? Veniam quod dignissimos suscipit ullam ea voluptate minima nam nesciunt vel ut
-                soluta, eligendi eos similique sapiente excepturi quae iure mollitia porro?</p>
-        </section>
-
-        <section>
-            <h2>Work</h2>
-            <div class="card-container">
-
-                <div class="card">
-                    <h2>Most Recent Project</h2>
-                </div>
-
-                <div class="card">
-                    <h2>Prework Study Guide</h2>
-                </div>
-
-                <div class="card">
-                    <h2>HTML/CSS</h2>
-                </div>
-
-                <div class="card">
-                    <h2>Node/IoT</h2>
-                </div>
-
-                <div class="card">
-                    <h2>MERN Stack</h2>
-                </div>
-
+            <h2> <a id="about-me"> About Me</h2> </a>
+            <div class="about-me-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nostrum repellat consequatur sunt
+                    similique, laudantium minus aperiam dolorum odio veniam accusantium quisquam necessitatibus illo
+                    totam
+                    commodi in tenetur? Veniam quod dignissimos suscipit ullam ea voluptate minima nam nesciunt vel ut
+                    soluta, eligendi eos similique sapiente excepturi quae iure mollitia porro?</p>
             </div>
         </section>
 
         <section>
-            <h2>Contact Me</h2>
-            <p1>Phone: 405.481.0066</p1>
-            <p1>Email: connerwmar@gmail.com</p1>
+            <h2> <a id="work"> Work</h2> </a>
+            <div class="section-container">
+
+                <div class="card-container">
+                    <div class="card" id="image-container1" style="background-image: url(assets/images/first-challenge.jpeg)">
+                        <h3>Most Recent Project</h3>
+                    </div>
+
+                    <div class="card" style="background-image: url(assets/images/study-guide.png);">
+                        <h3>Prework Study Guide</h3>
+                    </div>
+
+                    <div class="card" style="background-image: url(assets/images/html.png)">
+                        <h3>HTML/CSS</h3>
+                    </div>
+
+                    <div class="card" style="background-image: url(assets/images/Node:IoT.png);">
+                        <h3>Node/IoT</h3>
+                    </div>
+
+                    <div class="card" style="background-image: url(assets/images/Mern-Stack.png);">
+                        <h3>MERN Stack</h3>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
         <section>
-            <h2>Resume</h2>
-            <p1>Insert Resume Here</p1>
+            <h2> <a id="contact-me"> Contact Me</h2> </a>
+            <div class="contact-card">
+                <p>Phone: 405.481.0066</p>
+                <p>Email: connerwmar@gmail.com</p>
+            </div>
+        </section>
+
+        <section>
+            <h2> <a id="resume"> Resume </h2> </a>
+            <div class="resume-card">
+                <p1>Insert Resume Here</p1>
+            </div>
         </section>
 
     </main>
 
-        <footer>
-            <p>Made with lots of frustration by Conner Martin</p>
-        </footer>
+    <footer>
+        <p>Made with lots of frustration by Conner Martin</p>
+    </footer>
 
 </body>
 
