@@ -1,0 +1,36 @@
+
+/* CSS Reset Values */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  ol, ul {
+    list-style: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+  }
+
+  img {
+    height: 200px;
+    max-width: 100%;
+  }
+
+  /* CSS Values - top to bottom */
+
+:root {
+--spacegray: #2f2c2c;
+--spaceblue: rgb(0, 255, 255);
+}
+
+  body {
+    background-color: var(--spacegray);
+    color: var(--spaceblue)
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
