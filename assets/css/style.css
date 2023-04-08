@@ -5,11 +5,6 @@
     box-sizing: border-box;
 }
 
-ol,
-ul {
-    list-style: none;
-}
-
 a {
     text-decoration: none;
     color: var(--spaceblue);
@@ -21,39 +16,47 @@ button {
     background-color: inherit;
 }
 
-
 /* CSS Values - top to bottom */
 
 :root {
     --spacegray: #2f2c2c;
-    --spaceshipgray: #6d7f82;
+    --spaceshipgray: #3c484844;
     --spaceblue: rgb(0, 255, 255);
-    margin: 20px;
 }
 
 body {
     background-color: var(--spacegray);
-    color: var(--spaceblue)
+    color: var(--spaceblue);
 }
 
-.header-section {
-    border-radius: 20px;
-    padding: 10px;
-}
-
-header img {
-    max-width: 30%;
-    margin: auto;
-    display: block;
-}
-
-h1 {
-    font-size: 55px;
+h2 {
+    font-size: 45px;
     text-align: center;
 }
 
-nav {
-    margin: 5px;
+h3 {
+    background-color: var(--spacegray);
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+
+.header-section {
+    font-size: 4vw;
+    text-align: end;
+    padding: 10px;
+    margin-bottom: 15vw;
+}
+
+.header-image {
+    max-width: 30%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    border-radius: 25%;
 }
 
 .nav-section {
@@ -63,28 +66,18 @@ nav {
     background-color: var(--spaceshipgray);
     border-radius: 20px;
     font-size: 20px;
+    margin: 10px;
 }
 
-
-h2 {
-    font-size: 45px;
-    text-align: center;
-}
-
-.about-me-container {
+.content {
     background-color: var(--spaceshipgray);
-    padding: 10px;
     border-radius: 20px;
-    margin: auto;
+    padding: 20px;
+    margin: 10px;
 }
 
-.card1 {
-    height: 200px;
-    margin: auto;
-    text-align: left;
-    background-color: var(--spaceshipgray);
-    margin-bottom: 5px;
-    border-radius: 20px;
+.card-container {
+    margin: 10px;
 }
 
 .card {
@@ -96,31 +89,9 @@ h2 {
     border-radius: 20px;
 }
 
-h3 {
-    background-color: var(--spacegray);
-    display: inline-block;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 5px;
-}
 
-.contact-card {
-    height: auto;
-    padding: 20px;
-    background-color: var(--spaceshipgray);
-    margin-bottom: 5px;
-    border-radius: 20px;
-    display: block;
-}
 
-.resume-card {
-    height: auto;
-    padding: 20px;
-    background-color: var(--spaceshipgray);
-    margin-bottom: 5px;
-    border-radius: 20px;
-}
-
+/* Background Images */
 
 .background-image-1 {
     background-image: url("/assets/images/recent.webp");
@@ -156,46 +127,3 @@ h3 {
     background-size: cover;
     display: block;
 }
-
-@media screen and (min-width: 768px) {
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .card {
-        flex: 0 0 49%;
-        max-width: 50%;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .card-top {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .card-container {
-        display: flex;
-        flex-wrap: wrap;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .card {
-        flex: 0 0 32%;
-        max-width: 33%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .card-top {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
