@@ -14,6 +14,7 @@ button {
     font-size: 100%;
     font-family: inherit;
     background-color: inherit;
+    color: inherit;
 }
 
 /* CSS Values - top to bottom */
@@ -27,6 +28,7 @@ button {
 body {
     background-color: var(--spacegray);
     color: var(--spaceblue);
+    font-family:'Courier New', Courier, monospace
 }
 
 h2 {
@@ -39,7 +41,7 @@ h3 {
     display: inline-block;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 5px;
+    padding: 13px;
 }
 
 .header-section {
@@ -65,7 +67,7 @@ h3 {
     margin: 30px;
 }
 
-.nav-section button {
+button {
     width: 100%;
     height: 40px;
     border-radius: 20px;
@@ -97,12 +99,19 @@ h3 {
     border-radius: 20px;
 }
 
+.contact p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+}
 
 
 /* Background Images */
 
 .background-image-1 {
-    background-image: url("/assets/images/recent.webp");
+    background-image: url("/assets/images/recent.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;

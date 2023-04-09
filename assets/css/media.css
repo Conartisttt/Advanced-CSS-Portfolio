@@ -20,10 +20,10 @@
 }
 
 @media screen and (min-width: 768px) {
-    .nav-section {
+    .nav-section, .contact {
         display: flex;
         flex-direction: row;
-        
+        justify-content: space-evenly;
     }
 }
 
