@@ -11,7 +11,7 @@
     --spacegray: #2f2c2c;
     --spaceshipgray: #3c484844;
     --spaceblue: rgb(0, 255, 255);
-    --galaxypink: rgba(232, 102, 236);
+    --galaxypink: rgb(247, 1, 255);
 }
 
 body {
@@ -38,6 +38,7 @@ h3 {
     text-align: end;
     padding: 10px;
     margin-bottom: 15vw;
+    margin-right: 20px;
 }
 
 .header-image {
