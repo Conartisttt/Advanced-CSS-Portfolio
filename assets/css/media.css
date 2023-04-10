@@ -1,3 +1,5 @@
+/* styles to allow website to be responsive to multiple screen sizes */
+
 @media screen and (min-width: 768px) {
     .card-container {
         display: flex;

@@ -1,4 +1,5 @@
 /* CSS Reset Values */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,19 +19,6 @@ body {
     background-color: var(--spacegray);
     color: var(--spaceblue);
     font-family:'Courier New', Courier, monospace
-}
-
-h2 {
-    font-size: 45px;
-    text-align: center;
-}
-
-h3 {
-    background-color: var(--spacegray);
-    display: inline-block;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 13px;
 }
 
 .header-section {
@@ -56,12 +44,6 @@ h3 {
     margin: 30px;
 }
 
-a {
-    text-decoration: none;
-    color: var(--spaceblue);
-    display: block;
-}
-
 button {
     font-size: 100%;
     font-family: inherit;
@@ -74,6 +56,16 @@ button {
     background-color: var(--spaceshipgray);
 }
 
+a {
+    text-decoration: none;
+    color: var(--spaceblue);
+    display: block;
+}
+
+h2 {
+    font-size: 45px;
+    text-align: center;
+}
 
 .content {
     background-color: var(--spaceshipgray);
@@ -95,12 +87,24 @@ button {
     border-radius: 20px;
 }
 
+h3 {
+    background-color: var(--spacegray);
+    display: inline-block;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 13px;
+}
+
 .contact p {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     font-size: 15px;
+}
+
+span {
+    font-size: 30px;
 }
 
 
