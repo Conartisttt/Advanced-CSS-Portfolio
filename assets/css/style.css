@@ -111,35 +111,35 @@ span {
 /* Background Images */
 
 .background-image-1 {
-    background-image: url("./assets/images/recent.jpeg");
+    background-image: url("../assets/images/recent.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
 }
 
 .background-image-2 {
-    background-image: url("./assets/images/study-guide.jpeg");
+    background-image: url("../assets/images/study-guide.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
 }
 
 .background-image-3 {
-    background-image: url("./assets/images/html.webp");
+    background-image: url("../assets/images/html.webp");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
 }
 
 .background-image-4 {
-    background-image: url("./assets/images/Node.png");
+    background-image: url("../assets/images/Node.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
 }
 
 .background-image-5 {
-    background-image: url("./assets/images/mern.jpeg");
+    background-image: url("../assets/images/mern.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     display: block;
