@@ -6,15 +6,15 @@ This is my portfolio page, meant to showcase all of the projects I have created 
 
 I am highly motivated to break into this indsutry, and hope that this portfolio not only shows my ability to learn and adapt, but also to present the skills that I have developed to potential employers looking to fill part-time or full-time roles.
 
-* **The final result can be found here:** [Advanced-CSS-Portfolio] (add link to deployed github page here)
+* **The final result can be found here:** [Advanced-CSS-Portfolio](https://conartisttt.github.io/Advanced-CSS-Portfolio/)
 
 ## Features
 
 * Includes developer's name.
 * Includes a recent photo avatar.
-* Links to sections about them.
-* Links to their work.
-* Links to information on how to contact them.
+* Links to sections about me.
+* Links to my work.
+* Links to information on how to contact me.
 * I click on one of the navigation, the UI scrolls to the corresponding section.
 * I click on the link to section about their work, the UI scrolls to a section with titled images of the developer's applications.
 * The first application's image should be larger in size than the others.
