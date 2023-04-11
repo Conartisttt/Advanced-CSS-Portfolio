@@ -87,6 +87,10 @@ h2 {
     border-radius: 20px;
 }
 
+.card-top {
+    height: 275px;
+}
+
 h3 {
     background-color: var(--spacegray);
     display: inline-block;
