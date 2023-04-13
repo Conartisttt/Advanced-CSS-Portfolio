@@ -6,8 +6,7 @@
     box-sizing: border-box;
 }
 
-/* CSS Values - top to bottom */
-
+/* Declaring variables for each color to form website color pallete */
 :root {
     --spacegray: #2f2c2c;
     --spaceshipgray: #3c484844;
@@ -15,11 +14,16 @@
     --galaxypink: rgb(249, 70, 255);
 }
 
+/* This is styling all viewable elements on the page */
+
 body {
     background-color: var(--spacegray);
     color: var(--spaceblue);
-    font-family:'Courier New', Courier, monospace
+    font-family:'Courier New', Courier, monospace;
+    cursor: crosshair;
 }
+
+/* This is styling the header section */
 
 .header-section {
     font-size: 5vw;
@@ -39,6 +43,8 @@ body {
     border-radius: 25%;
 }
 
+/* This is styling all buttons on the page (nav & resume and more) */
+
 .button-section {
     font-size: 20px;
     margin: 30px;
@@ -56,6 +62,7 @@ button {
     background-color: var(--spaceshipgray);
 }
 
+/* This is styling all links */
 a {
     text-decoration: none;
     color: var(--spaceblue);
@@ -63,10 +70,13 @@ a {
     width: 100%;
 }
 
+/* This is styling all section headers */
 h2 {
     font-size: 45px;
     text-align: center;
 }
+
+/* This is styling all content sections */
 
 .content {
     background-color: var(--spaceshipgray);
@@ -75,9 +85,13 @@ h2 {
     margin: 30px;
 }
 
+/* This is styling the Work section container */
+
 .card-container {
     margin: 30px;
 }
+
+/* This is styling each individual card within the Work section */
 
 .card {
     height: 200px;
@@ -88,9 +102,13 @@ h2 {
     border-radius: 20px;
 }
 
+/* This is styling only the top card in the Work section */
+
 .card-top {
     height: 275px;
 }
+
+/* This is styling the titles of each card in the Work section */
 
 h3 {
     background-color: var(--spacegray);
@@ -99,6 +117,8 @@ h3 {
     border-bottom-right-radius: 10px;
     padding: 13px;
 }
+
+/* This is styling the Contact Me section*/
 
 .contact p {
     display: flex;
@@ -113,7 +133,7 @@ span {
 }
 
 
-/* Background Images */
+/* These are the background images of each card in the Work section */
 
 .background-image-1 {
     background-image: url("./css-images/recent.jpeg");
