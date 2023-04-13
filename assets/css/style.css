@@ -60,6 +60,7 @@ a {
     text-decoration: none;
     color: var(--spaceblue);
     display: block;
+    width: 100%;
 }
 
 h2 {
