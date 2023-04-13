@@ -1,9 +1,7 @@
+/* Styles when hovering over cards in work section, and all buttons */
+
 button:hover, .card:hover {
     box-shadow: inset 0px 0px 5px var(--galaxypink), 0 0 15px var(--galaxypink);
     transform: scale(.95);
     transition: all 0.5s ease-in-out;
-}
-
-body:hover {
-    cursor: crosshair;
 }
